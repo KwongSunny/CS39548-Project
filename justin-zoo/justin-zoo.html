@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <head>
   <title>Justin's Zoo</title>
-  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <link rel="stylesheet" type="text/css" href="../css/zoo.css">
+  <link rel="stylesheet" type="text/css" href="../css/headerbar.css">
+  <script src = '../zoo.js'></script>
 </head>
 <body>
   <div class = 'headerBar'>
-    <span class = 'headerBarAnimal'>
-        Polar Bear
+    <span></span>
+    <span>
+      <a class = 'headerBarZoo' href = "../sunny-zoo/sunny-zoo.html">
+          Sunny's Zoo
+      </a>
     </span>
-    <span class = 'headerBarAnimal'>
-        Cheetah
+    <span>
+      <a class = 'headerBarZoo' href = "../christy-zoo/christy-zoo.html">
+          Christy's Zoo
+      </a>
     </span>
-    <span class = 'headerBarAnimal'>
-        Animal 3
+    <span>
+      <a class = 'headerBarZooSelected'>
+          Justin's Zoo
+      </a>
     </span>
+    <span></span>
+    </div>
+    <div class = "heading">
+      <h2>Welcome to Justins Zoo</h2>
+      <h4>See the animals at my zoo:</h4>
   </div>
-  <h1>Welcome to Justins Zoo</h1>
-  <h3>See the animals at my zoo:</h3>
-  <div class="link">
-    <a href="animals/jaguar.html">Jaguar</a>
-  </div>
-  <div class="link">
-    <a href="animals/gorilla.html" >Gorilla</a>
-  </div>
-  <div class="link">
-    <a href="animals/elephant.html">Elephant</a>
-  </div>
-  <div class="link">
-    <a href="animals/sloth.html">Sloth</a>
+  <div class = "animalList">
+    <div class="link">
+      <img src = '../img/jaguar.jpg' onclick="toHyperLink('animals/jaguar.html')">
+    </div>
+    <div class="link">
+      <img src = '../img/gorilla.jpg' onclick="toHyperLink('animals/gorilla.html')">
+    </div>
+    <div class="link">
+      <img src = '../img/elephant.jpg' onclick="toHyperLink('animals/elephant.html')">
+    </div>
+    <div class="link">
+      <img src = '../img/sloth.jpg' onclick="toHyperLink('animals/sloth.html')">
+    </div>
   </div>
 </body>
