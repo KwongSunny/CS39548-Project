@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Gill Sans, sans-serif;
+  background-color: salmon;
+  text-align: center;
+}
+
+h2{
+  margin: 0;
+}
+
+h4{
+  margin: 0;
+}
+
+.heading{
+  height: 3rem;
+  margin: 1rem 0px;
+}
+
+.animalList{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.animalList > div > img{
+  margin: 2rem;
+  width: 50%;
+  cursor: pointer;
+  border-radius: 10%;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+}

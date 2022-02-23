@@ -1,5 +1,40 @@
+
 .headerBar{
-    width: 50%;
+    width: 100%;
+    display: grid;
+    height: 3rem;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    background-color: white;
+}
 
+.headerBarZoo{
+    display:flex;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items:center;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: white;
+}
 
+.headerBarZooSelected{
+    display:flex;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items:center;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: lightgray;
+}
+
+.headerBarZoo:hover{
+    background-color: gray;
 }
