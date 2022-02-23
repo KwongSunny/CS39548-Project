@@ -1,18 +1,51 @@
 <!DOCTYPE html>
 <head>
   <title>Christy's Zoo</title>
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="../css/zoo.css">
+  <link rel="stylesheet" type="text/css" href="../css/headerbar.css">
+  <script src = '../zoo.js'></script>
 </head>
 <body>
-  <h1>Welcome to Christy's Zoo</h1>
-  <h3>See the animals at the zoo:</h3>
-  <div class="link">
-    <a href="../christy-zoo/animals/rabbit.html">Rabbit</a>
-    <br></br>
-    <a href="../christy-zoo/animals/dog.html">Dog</a>
-    <br></br>
-    <a href="../christy-zoo/animals/horse.html">Horse</a>
-    <br></br>
-    <a href="../christy-zoo/animals/deer.html">Deer</a>
+  <div class = 'headerBar'>
+    <span></span>
+    <span>
+      <a class = 'headerBarZoo'href = "../sunny-zoo/sunny-zoo.html">
+          Sunny's Zoo
+      </a>
+    </span>
+    <span>
+      <a class = 'headerBarZooSelected'>
+          Christy's Zoo
+      </a>
+    </span>
+    <span>
+      <a class = 'headerBarZoo' href="../justin-zoo/justin-zoo.html">
+          Justin's Zoo
+      </a>
+    </span>
+    <span></span>
+  </div>
+  <div class = "heading">
+    <h2>Welcome to Christy's Zoo</h2>
+    <h4>See the animals at the zoo:</h4>
+  </div>
+  <div class = "animalList">
+    <div class="link">
+      <img src = '../img/rabbit.jpg' onclick="toHyperLink('animals/rabbit.html')">
+    </div>
+    <div class="link">
+      <img src = '../img/dog.jpg' onclick="toHyperLink('animals/dog.html')">
+    </div>
+    <div class="link">
+      <img src = '../img/horse.jpg' onclick="toHyperLink('animals/horse.html')">
+    </div>
+    <div class="link">
+      <img src = '../img/deer.jpg' onclick="toHyperLink('animals/deer.html')">
+    </div>
   </div>
 </body>
+
+
+
+
+
